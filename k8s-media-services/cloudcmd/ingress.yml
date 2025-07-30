@@ -3,7 +3,7 @@ apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
 metadata:
   name: cloudcmd
-  namespace: media-system
+  namespace: media
   annotations:
     gethomepage.dev/href: "https://files.clusterlab.cc"
     gethomepage.dev/enabled: "true"
