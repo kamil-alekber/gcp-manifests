@@ -39,7 +39,6 @@ spec:
 
             - mountPath: /data/media
               name: sabnzbd-data
-              subPath: usenet
 
       volumes:
         - name: sabnzbd-data
